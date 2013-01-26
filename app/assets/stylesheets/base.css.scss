@@ -3,8 +3,8 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 body {
-  background: url(/bg.jpg) repeat;
-  font-family: 'Fjalla One', sans-serif;
+/*  background: url(/bg.jpg) repeat;*/
+  font-family: Verdana, sans-serif;
 }
 
 #container {
@@ -41,7 +41,8 @@ body {
     text-transform: uppercase;
     text-align: center;
     font-size: 34px;
-    color: #E00000;
+    color: #cc9900;
+		font-family: 'Finger Paint', cursive, sans-serif;
   }
   h2 {
     margin-top: 60px;

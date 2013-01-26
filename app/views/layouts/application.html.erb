@@ -1,15 +1,23 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PaleoClan</title>
+  <title>ClanSpallazzi</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
-  <link href='http://fonts.googleapis.com/css?family=Fjalla+One' rel='stylesheet' type='text/css'>
+  <link href='http://fonts.googleapis.com/css?family=Finger+Paint' rel='stylesheet' type='text/css'>
+  <style type="text/css">
+    body {
+      background: url(<%= randomized_background_image %>) repeat; 
+    }
+  </style>
+
 </head>
 <body>
   <div id="container">
-    <h1>Clan Longhi <%= l today.date %></h1>
+    
+    <h1>Clan Spallazzi <%= l today.date %></h1>
+    <h1>the best clan in Mikamai</h1>
     <section id="navigation">
       <%= link_to 'home',   root_path %> |
       <%= link_to 'regole', rules_path %> |
@@ -19,9 +27,9 @@
     <p class="notice"><%= notice %></p>
     <p class="alert"><%= alert %></p>
     <%= yield %>
-    <%= image_tag '/paleobros.jpg' %>
+    <%= image_tag '/spallazzi.jpg' %>
     <footer>
-      <p>happily started in MIKAMAI on january 16th 2013</p>
+      <p>Filippa Lagerback con Mario Spallazzi (fondatore del Clan)</p>
     </footer>
   </div>
 </body>
