@@ -1,0 +1,11 @@
+development:
+  id: '253926028072270'
+  secret: 'ef232588e7f5ec9a9dd3a068c19198ce'
+
+test:
+  id: '253926028072270'
+  secret: 'ef232588e7f5ec9a9dd3a068c19198ce'
+
+production:
+  id: '253926028072270'
+  secret: 'ef232588e7f5ec9a9dd3a068c19198ce'
