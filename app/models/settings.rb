@@ -12,7 +12,7 @@ class Settings < ActiveRecord::Base
   end
 
   def self.data
-    @data ||= 'instance.data'
+    @data ||= instance.data
   end
 
   KEYS.each do |name|
