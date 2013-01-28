@@ -11,4 +11,8 @@ module ApplicationHelper
     images[rand(images.size)]
   end
 
+  def admin_area
+    yield if current_user.present? and current_user.admin?
+  end
+
 end
